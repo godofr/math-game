@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<!hola>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+    font-family: sans-serif;
+}
+
+.container {
+    text-align: left;
+    border: 2px solid #333;
+    border-radius: 8px;
+    background-color: white;
+    padding: 20px;
+}
+
+a {
+    display: block;
+    margin: 10px 0;
+    font-size: 20px;
+    text-decoration: none;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+    <h1>Juego matemático diario</h1>
+
+    <a id="juego">🎲 Ver juego matemático</a>
+</div>
+
+<script>
+const ts = new Date().getTime();
+
+document.getElementById("juego").href =
+  "juego-matematico.html?v=" + ts;
+</script>
+
+</body>
+</html>
+

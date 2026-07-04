@@ -1,0 +1,11 @@
+Esta es la lista de números:
+3
+6
+7
+10
+15
+95
+
+Este es el objetivo a conseguir:
+888
+
