@@ -46,10 +46,12 @@ a {
 </div>
 
 <script>
-const ts = new Date().getTime();
+document.getElementById("juego").addEventListener("click", function (e) {
+    e.preventDefault();
 
-document.getElementById("juego").href =
-  "juego-matematico.html?v=" + ts;
+    const ts = Date.now();
+    window.location.href = "juego-matematico.html?v=" + ts;
+});
 </script>
 
 </body>
