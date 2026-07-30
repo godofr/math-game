@@ -1,11 +1,11 @@
 Esta es la lista de números:
-4
-5
-8
+3
+7
+9
 10
-50
-85
+15
+80
 
 Este es el objetivo a conseguir:
-511
+598
 
