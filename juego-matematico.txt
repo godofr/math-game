@@ -2,10 +2,10 @@ Esta es la lista de números:
 1
 2
 3
-10
-30
-35
+9
+55
+100
 
 Este es el objetivo a conseguir:
-613
+351
 
